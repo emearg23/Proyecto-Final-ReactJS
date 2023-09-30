@@ -1,0 +1,33 @@
+.itemCountContainer {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    margin-right: 10px;
+}
+
+.button2 {
+    margin-left: 10px;
+}
+
+
+.button1, .button2 {
+    border: 2px solid yellow;
+    width: 3rem;
+    height: 2rem;
+    background-color: black;
+    color: yellow;
+}
+
+.button1:hover, .button2:hover {
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.number {
+    color: white;
+}

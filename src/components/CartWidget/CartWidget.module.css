@@ -1,0 +1,14 @@
+.cartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14rem;
+    font-size: 25px;
+    color: white;
+}
+
+.cart {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}

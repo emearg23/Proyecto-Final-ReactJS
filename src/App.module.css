@@ -1,0 +1,11 @@
+#root {
+  text-align: center;
+}
+
+body {
+   background-image: url(../src/img/202324.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   margin: 0;
+}

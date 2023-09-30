@@ -1,0 +1,55 @@
+.productListContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+.card {
+    background-image: url(../../img/colorcard.png);
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+.cardImage {
+    width: 400px;
+    height: 300px; 
+    image-rendering: optimizeQuality;
+}
+  
+.cardTitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    padding-top: 2rem;
+    color: yellow !important;
+}
+
+.cardText {
+    flex-flow: column;
+    font-size: 14px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center !important;
+    align-items: center !important;
+}
+  
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px;
+}
+  
+.button:hover {
+    background-color: yellow; 
+    color: black;
+    transition: 1s;
+}

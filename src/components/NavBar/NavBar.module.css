@@ -1,0 +1,84 @@
+.navbar{
+    font-family: 'Pixelify Sans', cursive;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 5.5rem;
+    margin-bottom: 2px;
+    padding: 1rem 0;
+    padding-bottom: 1rem;
+    width: 100%;
+    z-index: 99;
+    transition: 1s;
+}
+
+.logo {
+    padding-top: 4.5px;
+    width: 230px;
+    height: 50px;
+}
+
+.title {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.navlink {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeH1, .dropdownTitle {
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+.homeH1:hover {
+    border-radius: 3px 3px 3px 3px;
+    background-color: yellow;
+    color: black;
+}
+
+.dropdownItemText {
+    color: black;
+}
+
+.dropdownTitle {
+    background-color: yellow;
+    border-radius: 6px 6px 6px 6px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none;
+}
+
+.dropdown, .dropdown a{
+    font-size: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    color: #333;
+    border: none;
+    margin: 0;
+    height: 50px;
+    line-height: 1;
+    transition: 1s;
+}
+
+.dropdown a,
+.dropdown button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none; 
+    background: none; 
+}
